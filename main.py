@@ -4,8 +4,7 @@ from bs4 import BeautifulSoup
 import xlsxwriter
 
 urls = [
-  'https://www.youtube.com/results?search_query=people+who+make+side+hustle+videos'
-  'https://www.youtube.com/results?search_query=Stay+at+home+mum+with+side+hustles'
+  'https://www.youtube.com'
 ]
 
 times = 0
