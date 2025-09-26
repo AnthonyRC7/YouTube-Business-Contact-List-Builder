@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_excel('file.xlsx')
+data = pd.read_excel('file.csv')
 data.head()
 
 data['Views'] = data['Views'].str.replace(" views","")
